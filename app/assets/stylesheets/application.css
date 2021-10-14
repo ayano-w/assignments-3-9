@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+/*top*/
+.top-page{
+  margin: 33px;
+}
+.title{
+  margin: 17.42px 0;
+  width:1323px;
+  height:18px;
+  font-size: 26px
+}
+.text-box{
+  margin:33px;
+  width:1257px;
+  height:18px;
+  font-size:13px;
+}
