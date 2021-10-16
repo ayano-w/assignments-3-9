@@ -19,22 +19,108 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
+  color: #333;
 }
 
 /*top*/
 .top-page{
+  line-height: 18px;
   margin: 33px;
 }
 .title{
   margin: 17.42px 0;
-  width:1323px;
-  height:18px;
-  font-size: 26px
 }
+
 .text-box{
   margin:33px;
-  width:1257px;
-  height:18px;
   font-size:13px;
+}
+
+/*index*/
+body{
+  background-color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+.index-page-title{
+  margin: 17.420px 0;
+  height:18px;
+}
+
+th{
+  padding: 1px 1px 5px 1px;
+  line-height: 18px;  /*line-height:pxになってない*/
+}
+
+.thead-title{
+  width:192px;
+}
+.thead-body{
+  width:400px;
+}
+.thead-link{
+  width:145.38px;
+}
+
+/*index-new*/
+.new{
+  margin:17.420px 0;
+}
+.new-field{
+  margin-bottom: 10px;
+}
+.show{
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+.show-text{
+      margin: 33px;
+}
+
+/*index-error*/
+.errors-explanation{
+  margin-bottom: 20px;
+  padding: 7px 7px 0 7px;
+  border: 2px solid red;
+  background-color: #f0f0f0;
+}
+.errors-title{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+ul{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
+
+/*Edit*/
+.edit-page{
+  margin:33px;
+}
+.edit-title{
+  line-height: 18px;
+  margin: 17.420px 0;
+}
+.edit-field{
+  line-height: 18px;
+  margin-bottom: 10px;
+  
+  
 }
